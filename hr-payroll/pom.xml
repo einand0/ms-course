@@ -37,6 +37,12 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
+		<!-- RIBBON -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+		</dependency>
+
 		<!-- TESTES -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,7 +52,7 @@
 
 	</dependencies>
 
-	<!-- IMPORTAÇÃO DO SPRING CLOUD BOM -->
+	<!-- SPRING CLOUD BOM -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
