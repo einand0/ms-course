@@ -20,9 +20,12 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<!-- Spring Cloud versão compatível com Boot 2.3.x -->
+		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 
 	<dependencies>
+
 		<!-- Web + MVC -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -42,6 +45,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Eureka Client -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+
 		<!-- Testes -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,6 +58,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<!-- Gerenciamento de dependências do Spring Cloud -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>
