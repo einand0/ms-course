@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1b6202-5040-4ea6-9429-28f7367d6075" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/einando/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/einando/hrpayroll/HrPayrollApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/einando/hrpayroll/resources/PaymentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/einando/hrpayroll/resources/PaymentResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/einando/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/einando/hrworker/resources/WorkerResource.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f1b6202-5040-4ea6-9429-28f7367d6075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +24,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HrApiGatewayZuulApplication.executor": "Run",
     "Application.HrEurekaServerApplication.executor": "Run",
     "Application.HrPayrollApplication.executor": "Run",
     "Application.HrWorkerApplication.executor": "Run",
