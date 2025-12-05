@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1b6202-5040-4ea6-9429-28f7367d6075" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/einando/hrapigatewayzuul/HrApiGatewayZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/java/com/einando/hrapigatewayzuul/HrApiGatewayZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8f1b6202-5040-4ea6-9429-28f7367d6075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
